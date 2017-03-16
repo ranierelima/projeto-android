@@ -35,7 +35,7 @@ public class MeusDadosActivity extends AppCompatActivity {
 
         nome.setText(usuario.getNome());
         email.setText(usuario.getEmail());
-        telefone.setText(usuario.getTelefone());
+        telefone.setText(usuario.getTelefone().toString());
 
         Picasso.with(MeusDadosActivity.this).load("http://api.adorable.io/avatars/1").into(foto);
     }

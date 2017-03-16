@@ -25,4 +25,7 @@
     <string name="hint_senha">Senha...</string>
     <string name="entrar">Entrar</string>
     <string name="label_salvar">Salvar</string>
+    <string name="exibir_e_mail">Exibir e-mail?</string>
+    <string name="exibir_amigos">Exibir amigos?</string>
+    <string name="url_google">http://www.google.com</string>
 </resources>

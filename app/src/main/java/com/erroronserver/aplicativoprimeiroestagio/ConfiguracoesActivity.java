@@ -1,7 +1,9 @@
 package com.erroronserver.aplicativoprimeiroestagio;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class ConfiguracoesActivity extends AppCompatActivity {
 
@@ -9,5 +11,10 @@ public class ConfiguracoesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_configuracoes);
+    }
+
+    public void salvarConfi(View view) {
+        startActivity(new Intent(ConfiguracoesActivity.this, MainActivity.class));
+        finish();
     }
 }
