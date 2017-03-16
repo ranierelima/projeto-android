@@ -35,7 +35,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:text="aaaaaaaa"
-                android:textSize="24sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/iv_i_rv_foto"
